@@ -15,3 +15,16 @@ Multiple jumps are possible and mandatory if available.
 Pieces reaching the opposite end become "kings" (can move diagonally forward and backward).
 ### Winning:
 A player wins by capturing all opponent pieces or leaving them with no legal moves.
+
+## Approach
+I will use OpenAi gym library for RL training and PyGames for the graphic implementation.
+## Environment
+Board representation:
+    -  0: empty cell
+    -  1: player 1 man
+    - -1: player 2 man
+    -  2: player 1 king
+    - -2: player 2 king
+
+The action is represented as a tuple:
+    (from_row, from_col, to_row, to_col)
