@@ -1,5 +1,5 @@
 # Checkers-Player
-A program that plays checkers.
+A model trained to play checkers using CNN .
 
 ## Checkers
 Checkers (also known as Draughts) is a two-player strategy board game played on an 8x8 board.
@@ -17,7 +17,8 @@ Pieces reaching the opposite end become "kings" (can move diagonally forward and
 A player wins by capturing all opponent pieces or leaving them with no legal moves.
 
 ## Approach
-I will use OpenAi gym library for RL training and PyGames for the graphic implementation.
+I will use OpenAi gym library for RL training and PyGames for the graphic implementation also with CUDA I will use hardware acceleration to speed up training time .
+
 ## Environment
 Board representation:
     -  0: empty cell
@@ -28,3 +29,14 @@ Board representation:
 
 The action is represented as a tuple:
     (from_row, from_col, to_row, to_col)
+
+## Agent
+
+
+## Training
+
+
+## Testing
+
+
+
